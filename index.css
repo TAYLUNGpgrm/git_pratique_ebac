@@ -1,0 +1,31 @@
+img {
+    border-radius: 20px;
+}
+.btn-success {
+    cursor: pointer;
+}
+
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+.linha-azul {
+    width: 700px;
+    height: 2px;
+    background-color: rgb(0, 80, 201);
+    margin: 40px;
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    body {
+        max-width: 42px;
+    }
+}
